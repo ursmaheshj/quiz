@@ -1,16 +1,23 @@
 library quiz;
 
 class Quiz {
-  String? questiontext;
-  List? options;
-  int? ans;
-  Quiz(q, o, a) {
-    questiontext = q;
-    options = o;
-    ans = a;
+  String _questiontext = '';
+  List _options = [];
+  int _ans = 0;
+  Quiz(String q, List o, int a) {
+    _questiontext = q;
+    _options = o;
+    _ans = a;
   }
-  bool checkAns(int userchoice) {
-    return options![ans!-1] == options![userchoice-1];
+  get getQue {
+    return _questiontext;
   }
 
+  get getOpt {
+    return _options;
+  }
+
+  get getAns {
+    return _options[_ans - 1];
+  }
 }

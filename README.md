@@ -15,7 +15,8 @@ Simple and useful package to create multiple choice quizes or questions in your 
 
 ## Features
 
-Use it to create quizes
+- Easy to read and  
+- Simple to use
 
 ## Getting started
 
@@ -26,11 +27,8 @@ create objects of class Quizzy in your app and then use it to build quizes
 Quizzy q1=Quizzy('question text',['multiple','options'],1);
 q1.checkAns(1);
 ```dart
-const like = 'sample';
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+
