@@ -6,4 +6,6 @@
 
 * getter functions added
 
+## 0.0.3
 
+* Documentation added
